@@ -59,7 +59,7 @@ function App() {
                       className="text-center font-bold"
                       style={{ color: `#${item.route_color}` }}
                     >
-                      {item.route_short_name}
+                      <a href={item.route_url}>{item.route_short_name}</a>
                     </div>
                   </div>
                 </div>
